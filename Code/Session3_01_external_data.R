@@ -37,3 +37,5 @@ writeRaster(suncrop, "suncrop.png")
 # In case you are seeing rotated images, look here:
 # https://gis.stackexchange.com/questions/259321/opening-rotated-raster-in-r
 # or make use of the flip() function of the terra package
+# e.g. 
+# calf <- flip(cal)
